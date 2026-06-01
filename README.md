@@ -1,34 +1,139 @@
-# Sai Rishit Sunku Portfolio
+# 🚀 Personal Portfolio Card
 
-Premium black-and-white personal portfolio built with Next.js 15, TypeScript, Tailwind CSS, Framer Motion, GSAP, Lenis, and Lucide React.
+A modern and responsive personal portfolio card built using **HTML, CSS, and JavaScript**. This project is designed to showcase your profile, skills, social links, and personal brand through a clean and interactive user interface.
 
-## Run Locally
+---
+
+## 📖 About The Project
+
+Personal Portfolio Card is a lightweight portfolio website that helps developers and students create a professional online presence. It features a responsive design, smooth interactions, and an elegant layout that works seamlessly across devices.
+
+Whether you're showcasing your skills, sharing social links, or building your personal brand, this project provides a great starting point.
+
+---
+
+## ✨ Features
+
+-  Modern and Clean UI
+-  Fully Responsive Design
+-  Fast Loading Performance
+-  Social Media Integration
+-  Interactive Hover Effects
+-  Cross-Browser Compatibility
+-  Easy Customization
+
+---
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## 📂 Project Structure
 
 ```bash
-npm install
-npm run dev
+Personal-Portfolio-card/
+│
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   ├── images/
+│   └── icons/
+│
+└── README.md
 ```
 
-Open `http://localhost:3000`.
+---
 
-## Production Checks
+## 🚀 Getting Started
+
+### Clone the Repository
 
 ```bash
-npm run lint
-npm run typecheck
-npm run build
+git clone https://github.com/Rishit-07/Personal-Portfolio-card.git
 ```
 
-## Deploy To Vercel
+### Navigate to the Project Directory
 
-1. Push the project to GitHub.
-2. Import the repository in Vercel.
-3. Keep the framework preset as `Next.js`.
-4. Use the default build command: `npm run build`.
-5. Use the default output directory: `.next`.
-6. Add a custom domain when ready.
+```bash
+cd Personal-Portfolio-card
+```
 
-## Notes
+### Run Locally
 
-- Replace `/public/resume.pdf` with the real resume file before using the download button.
-- Update profile URLs in `lib/data.ts` with your actual GitHub, LinkedIn, LeetCode, and email links.
+Simply open the `index.html` file in your browser.
+
+Or use VS Code Live Server:
+
+```bash
+Right Click → Open with Live Server
+```
+
+---
+
+## 🎯 Customization
+
+### Update Personal Information
+
+Open `index.html` and update:
+
+- Name
+- Profile Picture
+- About Section
+- Social Media Links
+- Contact Information
+
+### Modify Styling
+
+Edit `style.css` to customize:
+
+- Colors
+- Fonts
+- Layout
+- Animations
+- Card Design
+
+### Enhance Functionality
+
+Add new features inside `script.js` such as:
+
+- About
+- Project Showcase
+- Skills
+- Contact Form
+
+---
+
+## 📱 Responsive Design
+
+This project is optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
+
+---
+
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+Feel free to use, modify, and distribute it.
+
+---
+
+## 👨‍💻 Author
+
+### Sai Rishit Sunku
+
+GitHub: https://github.com/Rishit-07
+
+Repository: https://github.com/Rishit-07/Personal-Portfolio-card
+
+---
