@@ -75,38 +75,6 @@ Right Click → Open with Live Server
 
 ---
 
-## 🎯 Customization
-
-### Update Personal Information
-
-Open `index.html` and update:
-
-- Name
-- Profile Picture
-- About Section
-- Social Media Links
-- Contact Information
-
-### Modify Styling
-
-Edit `style.css` to customize:
-
-- Colors
-- Fonts
-- Layout
-- Animations
-- Card Design
-
-### Enhance Functionality
-
-Add new features inside `script.js` such as:
-
-- About
-- Project Showcase
-- Skills
-- Contact Form
-
----
 
 ## 📱 Responsive Design
 
