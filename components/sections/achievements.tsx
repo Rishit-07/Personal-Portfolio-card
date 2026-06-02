@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { achievements } from "@/lib/data";
 
-function Counter({ value, suffix }: { value: number; suffix: string }) {
+function Counter({ value, suffix = "" }: { value: number; suffix?: string }) {
   const [count, setCount] = useState(0);
   const ref = useRef<HTMLSpanElement>(null);
 

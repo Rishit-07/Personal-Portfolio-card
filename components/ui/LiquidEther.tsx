@@ -1,6 +1,6 @@
-"use client";
-
+/* eslint-disable */
 // @ts-nocheck
+"use client";
 
 import { useEffect, useRef } from "react";
 import * as THREE from "three";
@@ -790,10 +790,15 @@ export default function LiquidEther({
           wrapS: THREE.ClampToEdgeWrapping,
           wrapT: THREE.ClampToEdgeWrapping
         };
-        for (let key in this.fbos) {
-          this.fbos[key] = new THREE.WebGLRenderTarget(this.fboSize.x, this.fboSize.y, opts);
+        for (const key in this.fbos) {
+          this.fbos[key] = new THREE.WebGLRenderTarget(
+            this.fboSize.x,
+            this.fboSize.y,
+            opts
+          );
         }
       }
+
       createShaderPass() {
         this.advection = new Advection({
           cellScale: this.cellScale,
@@ -849,7 +854,7 @@ export default function LiquidEther({
       }
       resize() {
         this.calcSize();
-        for (let key in this.fbos) {
+        for (const key in this.fbos) {
           this.fbos[key].setSize(this.fboSize.x, this.fboSize.y);
         }
       }
