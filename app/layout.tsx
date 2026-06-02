@@ -18,7 +18,7 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL("https://sairishitsunku.dev"),
   title: {
-    default: "Sai Rishit Sunku | Full Stack Developer",
+    default: "Sai Rishit Sunku ",
     template: "%s | Sai Rishit Sunku",
   },
   description:
