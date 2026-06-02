@@ -28,7 +28,7 @@ export function PortraitCard({ className, compact = false }: PortraitCardProps) 
       )}
     >
       <div className="absolute left-1/2 top-4 z-20 flex w-[76%] -translate-x-1/2 items-center justify-between rounded-full border border-white/10 bg-black/80 px-4 py-3 text-sm font-semibold backdrop-blur-md">
-        <span>Sai Rishit Sunkuin</span>
+        <span>Sai Rishit Sunku</span>
         <span className="grid size-8 place-items-center rounded-full bg-white text-black">
           SR
         </span>
