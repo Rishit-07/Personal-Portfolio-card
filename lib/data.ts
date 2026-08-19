@@ -111,7 +111,7 @@ export const skillContactItems = [
 ];
 
 export const achievements = [
-  { value: 60+, label: "DSA Problems Solved" },
+  { value: 60, label: "DSA Problems Solved" },
   { value: 2, label: "Projects Built" },
   { value: 1, suffix:"+",label: "Years Learning Development" },
 ];
