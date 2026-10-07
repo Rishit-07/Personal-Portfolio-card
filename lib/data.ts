@@ -26,6 +26,8 @@ export const stack = [
   "CSS3",
   "React.js",
   "Node.js",
+  "flutter",
+  "Firebase",
   "Express.js",
   "MongoDB",
   "Docker",
@@ -59,6 +61,16 @@ export const projects = [
     github: "https://github.com/Rishit-07/Socials",
     liveDemo: "https://socials-green.vercel.app",
   },
+  {
+    index: "03",
+    title: "Civic - Offline Legal First-Aid, Citizen Rights & AI Legal Help (India)",
+    description:
+      "CIVIC empowers Indian citizens with offline legal first-aid and instant AI statutory guidance under BNSS 2023, BNS 2023, the Motor Vehicles Act, and landmark Supreme Court rulings.",
+    stack: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    image: "/images/civic-hero.png",
+    github: "https://github.com/Rishit-07/Civic",
+    liveDemo: "https://civic-84e44.web.app/",
+  },
 ];
 
 export const skillGroups = [
@@ -70,17 +82,17 @@ export const skillGroups = [
   {
     title: "Frontend Development",
     icon: Code2,
-    skills: ["HTML5", "CSS3", "React.js"],
+    skills: ["HTML5", "CSS3", "React.js", "Flutter"],
   },
   {
     title: "Backend Development",
     icon: Server,
-    skills: ["Node.js", "Express.js"],
+    skills: ["Node.js", "Express.js", "Firebase"],
   },
   {
     title: "Database",
     icon: Database,
-    skills: ["MongoDB"],
+    skills: ["MongoDB", "Postgresql", "Prisma"],
   },
   {
     title: "DevOps & Tools",
@@ -112,8 +124,8 @@ export const skillContactItems = [
 
 export const achievements = [
   { value: 60, label: "DSA Problems Solved" },
-  { value: 2, label: "Projects Built" },
-  { value: 1, suffix:"+",label: "Years Learning Development" },
+  { value: 3, label: "Projects Built" },
+  { value: 2, suffix: "+", label: "Years Learning Development" },
 ];
 
 export const socialLinks = [
