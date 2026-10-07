@@ -46,7 +46,7 @@ export const projects = [
     title: "Qurate - Open Source Issue Management Engine",
     description:
       "Built backend APIs for issue and task management using Node.js and Express.js, added AI-based issue prioritization and GitHub issue scoring, and developed responsive frontend components with React.js and MongoDB.",
-    stack: ["React.js", "Node.js", "Express.js", "MongoDB", "Docker"],
+    stack: ["React.js", "Node.js", "Express.js", "MongoDB", "Docker", "Gemini"],
     image: "/images/qurate-hero.png",
     github: "https://github.com/Rishit-07/Qurate",
     liveDemo: "https://qurate-ashen.vercel.app",
@@ -66,7 +66,7 @@ export const projects = [
     title: "Civic - Offline Legal First-Aid, Citizen Rights & AI Legal Help (India)",
     description:
       "CIVIC empowers Indian citizens with offline legal first-aid and instant AI statutory guidance under BNSS 2023, BNS 2023, the Motor Vehicles Act, and landmark Supreme Court rulings.",
-    stack: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    stack: ["Flutter", "Firebase Authentication", "Firebase Firestore", "Firebase Storage", "Gemini"],
     image: "/images/civic-hero.png",
     github: "https://github.com/Rishit-07/Civic",
     liveDemo: "https://civic-84e44.web.app/",
